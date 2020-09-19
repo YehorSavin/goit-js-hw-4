@@ -104,34 +104,56 @@
 
 // -----------------------------------------------------------------------------
 
-// -----------------------------------------------------------------------task1
 
+// const greet = function(name) {
+//   console.log(`hello ${name}`);
+// };
 
+// const greetWithName = function(callback) {
+//   const name = 'Mango';
 
+//   console.log(callback);
+//   callback(name);
+// }
 
-// -----------------------------------------------------------------------task2
+// greetWithName(greet);
 
+// ----------------------------------------------------------
 
+// const x = 10;
 
+// const y = 20;
 
-// -----------------------------------------------------------------------task3
+// const foo = function(z) {
+//   const x = 100;
+//   return x + y + z;
+// };
 
+// foo(30);
 
+// -------------------------------------
 
+// const makeDish = function(shefName, dish) {
+//   console.log(`${shefName} готовит ${dish}`);
+// };
 
+// makeDish('Mango', 'борщ');
+// makeDish('Mango', 'омлет');
+// makeDish('Mango', 'пельмешки');
 
-// -----------------------------------------------------------------------task4
+// makeDish('Polly', 'суши');
+// makeDish('Polly', 'чай');
+// makeDish('Polly', 'торт');
 
+// const makeShef = function(name) {
 
+//   return function(dish) {
+//     console.log(`${name} готовит ${dish}`);
+//   }
+// }
 
+// const mango = makeShef('Mango');
+// const polly = makeShef('Polly');
 
-
-// -----------------------------------------------------------------------task5
-
-
-
-
-
-// -----------------------------------------------------------------------task6
-
-
+// mango('омлет');
+// polly('торт');
